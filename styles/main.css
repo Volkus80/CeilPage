@@ -175,3 +175,51 @@ header {
   margin-bottom: 1rem;
   border-radius: 20px;
 }
+.repair {
+  flex-direction: column;
+}
+.repair__container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  flex-wrap: wrap;
+}
+.repair__items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.repair__item {
+  display: flex;
+  max-width: 550px;
+  margin-bottom: 1rem;
+  border: solid white 2px;
+  border-radius: 10px;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.repair__item:nth-child(odd) {
+  margin-right: 10px;
+}
+.repair__item .tytle {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.repair_image {
+  max-width: 250px;
+  border-radius: 20px;
+  flex: 2 1;
+}
+.repair__description {
+  flex: 2 1;
+}
+.vertical_line {
+  border-right: solid white 2px;
+  height: 10rem;
+  justify-self: center;
+  margin-right: 1rem;
+  flex: 0.1 1;
+}
